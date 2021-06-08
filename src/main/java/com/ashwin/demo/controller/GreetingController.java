@@ -21,6 +21,7 @@ public class GreetingController {
 		model.addAttribute("name", user);
 		String today = new Date().toString();
 		model.addAttribute("date", today);
+		//some comment 
 		return "home";
 	}
 }
